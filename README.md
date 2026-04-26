@@ -43,6 +43,5 @@ The main goal was to deploy a Domain Controller and implement strict security po
 ![Policy Proof](./screenshots/access_denied_proof.png)
 *Final result: The system blocks access for the test user, confirming the security policy is active*
 
-### Enforcement Verification
 ![Policy Proof](./screenshots/policy-proof.png)
 *Final result: User is blocked from accessing system settings.*
