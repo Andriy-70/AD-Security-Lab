@@ -26,21 +26,21 @@ The main goal was to deploy a Domain Controller and implement strict security po
 
 ### 1. Network Configuration
 
-![Network Setup](./screenshots/network-config.png)
+![Network Setup](./screenshots/network_routing_setup.png)
 *Verification of dynamic IP assignment from the DHCP pool and DNS connectivity.*
 
 ### 2. Active Directory Infrastructure
 
-![AD Structure](./screenshots/ad-structure.png)
+![AD Structure](./screenshots/active_directory_hierarchy.png)
 *Custom OU hierarchy (Company -> Admins/Users) and domain user accounts*
 
 ### 3. GPO Security Settings
 
-![GPO Config](./screenshots/gpo-settings.png)
+![GPO Config](./screenshots/control_panel_restriction_policy.png)
 *Configuration of the "Prohibit access to Control Panel" policy in the Group Policy Management Editor*
 
 ### 4. Policy Enforcement Proof
-![Policy Proof](./screenshots/policy-proof.png)
+![Policy Proof](./screenshots/access_denied_proof.png)
 *Final result: The system blocks access for the test user, confirming the security policy is active*
 
 ### Enforcement Verification
